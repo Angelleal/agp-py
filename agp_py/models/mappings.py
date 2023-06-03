@@ -154,11 +154,13 @@ TagMap = {
 class AxieBodySkin(Enum):
     Normal = ''
     Frosty = 'frosty'
+    Summer = 'summer'
 
 
 BodySkinMap = {
     '0000': AxieBodySkin.Normal,
     '0001': AxieBodySkin.Frosty,
+    '0010': AxieBodySkin.Summer,
 }
 
 
